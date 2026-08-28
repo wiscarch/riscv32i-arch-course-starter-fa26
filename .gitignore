@@ -1,0 +1,8 @@
+# Guards against publish.fish accidentally staging Python build artifacts
+# when it syncs python-ece552/ from riscv32i-arch-course-infra -- those are
+# gitignored in the source repo (invisible to git status there) but this
+# repo had no .gitignore of its own to catch a stray copy.
+build/
+*.egg-info/
+__pycache__/
+*.pyc
