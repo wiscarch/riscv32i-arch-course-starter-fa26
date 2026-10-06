@@ -1,0 +1,8 @@
+# Quartus project file for the FPGA demo. Open this in Quartus.
+# Settings and pin assignments live in demo.qsf.
+
+QUARTUS_VERSION = "15.1.0"
+
+# Revisions
+
+PROJECT_REVISION = "demo"
